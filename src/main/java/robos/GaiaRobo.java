@@ -7,7 +7,7 @@ public class GaiaRobo {
      }
 
      public void lancarNota() {
-         System.out.println("Vou criar nota!");
+         System.out.println("Vou lançar nota!");
 
      }
 
