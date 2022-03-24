@@ -9,6 +9,7 @@ public class Executora {
 
 
         umaGaiaRobo.abrirChrome();
+        umaGaiaRobo.acessarUmSite();
 
 
 

@@ -4,11 +4,18 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class GaiaRobo {
+
+    public ChromeDriver thalitaDriver;
+
      public void abrirChrome(){
          WebDriverManager.chromedriver().setup();
-         ChromeDriver thalitaDriver = new ChromeDriver();
+         thalitaDriver = new ChromeDriver();
 
+     }
+
+     public void acessarUmSite()  {
          thalitaDriver.get("http://juliodelima.com.br/taskit");
+
      }
 
 
