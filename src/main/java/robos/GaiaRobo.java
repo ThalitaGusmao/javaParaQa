@@ -7,9 +7,9 @@ public class GaiaRobo {
 
     public ChromeDriver thalitaDriver;
 
-     public void abrirChrome(){
-         WebDriverManager.chromedriver().setup();
-         thalitaDriver = new ChromeDriver();
+     public GaiaRobo() {
+        WebDriverManager.chromedriver().setup();
+        thalitaDriver = new ChromeDriver();
 
      }
 
@@ -28,6 +28,5 @@ public class GaiaRobo {
          System.out.println("Vou lancar nota!");
 
      }
-
 
 }
