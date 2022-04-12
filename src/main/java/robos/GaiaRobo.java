@@ -13,13 +13,21 @@ public class GaiaRobo {
 
      }
 
-     public void acessarUmSite()  {
+     public void acessarUmSiteChamadoTaskit()  {
          thalitaDriver.get("http://juliodelima.com.br/taskit");
+     }
+
+     public void acessarUmSiteChamadoGoogle()  {
+        thalitaDriver.get("http://google.com.br/");
 
      }
 
+    public void acessarUmSiteChamado(String site) {
+        thalitaDriver.get(site):
 
-     public void fazerLogin() {
+    }
+
+     public void fazerLogin(String login, String senha) {
          System.out.println("Vou fazer login!");
 
      }

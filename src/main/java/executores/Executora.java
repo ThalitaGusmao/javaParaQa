@@ -8,12 +8,13 @@ public class Executora {
     public static void main(String[] args) {
         GaiaRobo umaGaiaRobo = new GaiaRobo();
 
-        umaGaiaRobo.acessarUmSite();
-        umaGaiaRobo.fazerLogin();
+        umaGaiaRobo.acessarUmSiteChamado("http://juliodelima.com.br/taskit");
+        umaGaiaRobo.fazerLogin("thalita", "1234");
+
         umaGaiaRobo.lancarNota();
 
         GaiaRobo umaOutraGaiaRobo = new GaiaRobo();
-        umaOutraGaiaRobo.acessarUmSite();
+        umaOutraGaiaRobo.acessarUmSiteChamado("http://www.google.com.br");
 
 
     }
