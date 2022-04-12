@@ -23,12 +23,16 @@ public class GaiaRobo {
      }
 
     public void acessarUmSiteChamado(String site) {
-        thalitaDriver.get(site):
+        thalitaDriver.get(site);
+
 
     }
 
+    public String pegarOTituloDaPagina() {
+         return thalitaDriver.getTitle();
+    }
+
      public void fazerLogin(String login, String senha) {
-         System.out.println("Vou fazer login!");
 
      }
 
